@@ -1,0 +1,16 @@
+image: golang:latest
+
+variables:
+  TERM: xterm
+
+before_script:
+  - echo "write some script here" 
+
+stages:
+  - build
+
+compile:
+  stage: build
+  script:
+    - echo "make build for example"
+

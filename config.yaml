@@ -1,0 +1,4 @@
+redis:
+  addr: 'localhost:6379'
+  password: 'it_is_a_strong_password'
+  db:  0 
